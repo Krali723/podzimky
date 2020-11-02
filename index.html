@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <h1>Kvadratická rovnice</h1>
+    <input type="number" id="a"> x2 + <input type="number" id="b"> x + <input type="number" id="c"> = 0
+    <input type="button" value="Počítej" onclick="kvadr()">
+    <br>
+    <b>Diskriminant:</b> <div id="Disk"></div>
+    <br>
+      <b>x1:</b> <div id="x1"></div>
+      <b>x2:</b> <div id="x2"></div>
+    
+    <h1>Fibonacciho posloupnost</h1>
+    Maximální číslo: <input type="number" id="max">
+    <input type="button" value="Piš" onclick="fib_pos()">
+    <div id = "posl"></div>
+
+    <h1>Prvočísla</h1>
+    Prvních <input type="number" id="cislo"> prvočísel
+    <input type="button" value="Piš" onclick="prvocisla()">
+    <div id="vypis"></div>
+  </body>
+</html>
